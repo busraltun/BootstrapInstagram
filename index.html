@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram</title>
+  </head>
+  <body>
+    <!--logo yerleştirme start-->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="">
+        </a>
+        
+        <!--logo yerleşti-->
+        <!--Üst kısımdaki arama yapma kısmı-->
+        <div class="container col-auto">
+        <nav class="navbar navbar-light bg-light">
+          <div class="ml-5 mx-5">
+            <form class="d-flex form-inline my-2 my-lg-0 ml-5 d-none d-sm-block">
+              <input style="text-align: center;" class="form-control me-2" type="search" placeholder="Ara" aria-label="Search">
+                <img id="search-icon" src="https://raw.githubusercontent.com/Kodluyoruz/taskforce/3874f3e1caec62683c120c1024e8b527e3b6d503/bootstrap/odev2/instagramclone/assets/search-solid.svg" alt="">
+            </form>
+          </div>
+        </nav>            
+        </div>
+        <!--Arama yapma oluşturuldu-->
+        <!--Üst sağ kısım için-->
+          <nav class="navbar navbar-light bg-light">
+            <div class="ml-5 mx-5">
+              <form class="d-flex form-inline my-2 my-lg-0 ml-5 d-none d-sm-block">
+                  <img class="üst-sag" src="assets/indir.png" alt="">
+                  <img class="üst-sag"  src="assets/messenger.jpg" alt="">
+                  <img src="assets/kesfet.png" alt="">
+                  <img src="assets/bildirim.png" alt="">
+                  <img width="50" src="assets/profil.png" alt="">
+              </form>
+            </div>
+          </nav>    
+         <!--üst sağ kısım tamamlandı-->
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row mt-4">
+        <div class="col-7 bg-light">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="carousel-img" src="https://picsum.photos/id/237/60/60" class="d-block w-100" alt="">
+                <img class="carousel-img" src="https://picsum.photos/id/237/60/60" class="d-block w-100" alt="">
+                <img class="carousel-img" src="https://picsum.photos/id/237/60/60" class="d-block w-100" alt="">
+                <img class="carousel-img" src="https://picsum.photos/id/237/60/60" class="d-block w-100" alt="">
+                <img class="carousel-img" src="https://picsum.photos/id/237/60/60" class="d-block w-100" alt="">
+                <p style="font-family: arial,sans-serif;">lorem1</p>
+              </div>
+              <div class="carousel-item">
+                <img class="carousel-img"  src="https://picsum.photos/id/637/60/60" class="d-block w-100" alt="">
+                <img class="carousel-img"  src="https://picsum.photos/id/637/60/60" class="d-block w-100" alt="">
+                <img class="carousel-img"  src="https://picsum.photos/id/637/60/60" class="d-block w-100" alt="">
+                <img class="carousel-img"  src="https://picsum.photos/id/637/60/60" class="d-block w-100" alt="">
+
+                <p style="font-family: arial,sans-serif;">lorem2</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-4 mx-4 bg-light">
+          <div style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/profil.png" alt="...">
+              </div>
+              <div>
+                <div class="card-body">
+                  <h6 class="card-title">semsinisa</h6>
+                  <p class="card-text"><small class="text-muted">Büşra Altun</small></p>
+                  <div class="row">
+                  <div class="col-6">
+                  <p class="card-text1">Senin İçin Öneriler</p>                    
+                  </div>
+                  <div class="col-6">
+                    <p style="margin-left: 35px; font-size: 14px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> <strong style="opacity: .99;">Tümünü gör </strong> </p> 
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">
+                      <img class="carousel-img" src="https://picsum.photos/id/237/60/60" class="d-block w-100" alt="">
+                    </div>
+                    <div class="col-4">
+                      <a style="text-decoration: none; color: black;" href="">lorem1</a>
+                      
+                    </div>
+                    <div class="col-4">
+                      <a class="link-primary decore" href="">
+                        <strong style="opacity: .85;">Takip et</strong> 
+                        </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">
+                      <img class="carousel-img" src="https://picsum.photos/id/237/60/60" class="d-block w-100" alt="">
+                    </div>
+                    <div class="col-4">
+                      <a style="text-decoration: none; color: black;" href="">lorem1</a>
+                      
+                    </div>
+                    <div class="col-4">
+                      <a class="link-primary decore" href="">
+                        <strong style="opacity: .85;">Takip et</strong> 
+                        </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">
+                      <img class="carousel-img" src="https://picsum.photos/id/237/60/60" class="d-block w-100" alt="">
+                    </div>
+                    <div class="col-4">
+                      <a style="text-decoration: none; color: black;" href="">lorem1</a>
+                      
+                    </div>
+                    <div class="col-4">
+                      <a class="link-primary decore" href="">
+                        <strong style="opacity: .85;">Takip et</strong> 
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="container bg-light mt-5">
+      <div class="row">
+       
+          <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a style="color: #262626; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="navbar-brand" href="#">
+                <img class="carousel-img" src="https://picsum.photos/id/237/60/60" class="d-block w-100" alt=""> lorem
+              </a>
+            </div>
+            <img src="https://toraks.org.tr/site/sf/nmf/pre_migration/2eb79c6cacc908ff333bf6fcc5a831c4926bee26501d01b4859c8f328d08ec2f.jpg" width="520" alt="">
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
